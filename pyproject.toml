@@ -1,0 +1,18 @@
+[project]
+name = "txtr"
+version = "1.0.0"
+description = "Terminal txt reader with bookmarks, search highlighting, and auto-resume"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = ["wcwidth"]
+
+[project.scripts]
+txtr = "txtr:main"
+
+[tool.setuptools.packages.find]
+include = ["txtr*"]
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
