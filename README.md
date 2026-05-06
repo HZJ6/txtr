@@ -23,7 +23,7 @@ pip install txtr
 ### from source
 
 ```bash
-git clone https://github.com/<your-username>/txtr.git
+git clone https://github.com/HZJ6/txtr.git
 cd txtr
 pip install .
 ```
