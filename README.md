@@ -14,10 +14,10 @@ A terminal-based txt file reader with bookmarks, search highlighting, and auto-r
 
 ## Installation
 
-### pip (recommended)
+### pip
 
 ```bash
-pip install txtr
+pip install git+https://github.com/HZJ6/txtr.git
 ```
 
 ### from source
